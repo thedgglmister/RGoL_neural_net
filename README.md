@@ -7,10 +7,10 @@ The goal of Reverse Game of Life is to use machine learning techniques to accura
 #### --The Game of Life--
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
-  Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
-  Any live cell with two or three live neighbours lives on to the next generation.
-  Any live cell with more than three live neighbours dies, as if by overpopulation.
-  Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+    Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
+    Any live cell with two or three live neighbours lives on to the next generation.
+    Any live cell with more than three live neighbours dies, as if by overpopulation.
+    Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 #### --My Network--
 I built a complete neural network class that can be re-purposed for other machine learning problems. It is a feed-forward network that can initialized with a custom size and cost functions, and it uses a stochastic gradient descent learning algorithm that takes a learning rate, regularization coefficient, batch-size, and epoch count as parameters. It also can be provided with up to two evaluation data sets and will display and log the cost and accuracy on these data sets after each epoch of training.
