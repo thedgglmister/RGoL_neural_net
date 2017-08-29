@@ -13,7 +13,7 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
     Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 #### --My Network--
-I built a complete neural network class that can be re-purposed for other machine learning problems. It is a feed-forward network that can initialized with a custom size and cost functions, and it uses a stochastic gradient descent learning algorithm that takes a learning rate, regularization coefficient, batch-size, and epoch count as parameters. It also can be provided with up to two evaluation data sets and will display and log the cost and accuracy on these data sets after each epoch of training.
+I built a complete neural network class in Python 3 that can be re-purposed for other machine learning problems. It is a feed-forward network that can initialized with a custom size and cost functions, and it uses a stochastic gradient descent learning algorithm that takes a learning rate, regularization coefficient, batch-size, and epoch count as parameters. It also can be provided with up to two evaluation data sets and will display and log the cost and accuracy on these data sets after each epoch of training. 
 
 #### --Results--
 
